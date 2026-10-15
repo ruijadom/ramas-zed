@@ -1,0 +1,7 @@
+id = "ramas"
+name = "Ramas"
+version = "0.1.0"
+schema_version = 1
+authors = ["Rui"]
+description = "A Zed port of the open-source Material Theme, with Darker High Contrast as the flagship and 12 variants."
+repository = "https://github.com/ruijadom/ramas-zed"

@@ -1,0 +1,21 @@
+Ramas
+Copyright 2026 Rui
+
+This product is a port of the Material Theme for Visual Studio Code to the
+Zed editor. Colour palettes, accent presets and the derivation of UI and
+syntax colours are taken from the Material Theme source, licensed under the
+Apache License, Version 2.0:
+
+  Material Theme — originally created by Mattia Astorino and contributors
+  Source used: https://github.com/t3dotgg/vsc-material-but-i-wont-sue-you
+               (fork that preserves the original Apache-2.0 license)
+  Original license reference:
+               https://github.com/Dramaga11/vsc-material-theme/blob/main/LICENSE
+
+Modifications: palettes were extracted unchanged into palettes/material.json
+and translated to Zed's theme schema and tree-sitter highlight captures by
+scripts/build.py. Values Zed requires but Material does not define are derived
+from the same palettes and marked "zed-adapt" in the build script.
+
+Ramas is not affiliated with, nor endorsed by, the authors of Material Theme
+or Vira Theme.
